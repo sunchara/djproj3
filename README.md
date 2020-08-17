@@ -1,15 +1,12 @@
 # djproj3
-в папке
-C:\Users\sunchara\Documents\djproj\djproj
-
-выполняем
+в папке \djproj выполняем
 
 celery worker --app=cel --pool=solo --loglevel=INFO
 celery worker --app=cel --pool=solo --loglevel=INFO
 
 -запускаем 2 воркеров, по одному в терминале
 
-python C:\Users\sunchara\Documents\djproj\manage.py runserver 
+python manage.py runserver 
 
 -запускаем джанго
 
